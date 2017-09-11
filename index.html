@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>淘宝首页</title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.c{
+				width: 1000px;
+				height: 30px;
+				margin: 0 auto;
+				/*overflow: hidden;*/
+			}
+			.header_con{
+				background-color: gainsboro;
+			}
+			
+			.header_con ul li {
+				float: left;
+				display: inline-block;
+				padding: 0px 5px;
+				color: black;
+				height: 30px;
+				line-height: 30px;
+			}
+			#contents{
+				width: 300px;
+				height: 400px;
+				background-color: white;
+				display: none;
+				
+			}
+			#show:hover #contents{
+				display: block;
+				border-color: black;
+				border-width: 5px;
+			}
+			.sousuo{
+				height: 25px;
+				width: 400px;
+				padding: 5px;
+				margin: 50px 500px;
+			}
+			.t{
+				height: 25px;
+				width: 40px;
+				padding: 5px;
+				margin:1px 950px;
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="header_con">
+				<ul class="c">
+					<div id="show">
+					<li><a href="#">中国大陆</a></li>
+					<div id="contents">
+						<p><a href="#">全球</a></p>
+						<!--<p><a href="#">中国大陆</a></p>-->
+						<p><a href="#">香港</a></p>
+						<p><a href="#">台湾</a></p>
+						<p><a href="#">澳门</a></p>
+					</div>
+					</div>
+					<li><a href="#" >亲，请登录</a></li>
+					<li><a href="#">免费注册</a></li>
+					<li><a href="#">手机逛淘宝</a></li>
+					<li><a href="#">我的淘宝</a></li>
+					<li><a href="#">购物车</a></li>
+					<li><a href="#">收藏夹</a></li>
+					<li><a href="#">商品分类</a></li>
+					<li><a href="#">卖家中心</a></li>
+					<li><a href="#">联系客服</a></li>
+					<li><a href="#">网址导航</a></li>
+				</ul>
+			</div>
+		</header>
+		<section>
+			<form method="post"action="">
+			<div>
+			<a href=""><img src="https://img.alicdn.com/tps/i2/TB1bNE7LFXXXXaOXFXXwFSA1XXX-292-116.png_145x145.jpg"/></a>
+			<p><input type="" value=""name="666" class="sousuo"/>
+			<a href=""><img src="http://bpic.588ku.com/element_pic/00/93/91/9856f2b184e73d4.jpg" class="t"/></a></p>
+			</div>
+			<div>
+				
+			</div>
+			</form>
+		</section>
+	</body>
+</html>
